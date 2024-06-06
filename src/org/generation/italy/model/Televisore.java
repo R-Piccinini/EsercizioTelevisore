@@ -197,8 +197,8 @@ public class Televisore {
 
 	@Override
 	public String toString() {
-		return "Televisore [Marca=" + marca + ", Modello=" + modello + ", Pollici=" + nrPollici + ", Stato=" + stato
-				+ ", Volume=" + volume + ", Modalità Hotel=" + modalitàHotel + ", Canale corrente=" + canaleCorrente
+		return "Televisore [Marca=" + marca + ", Modello=" + modello + ", Pollici=" + nrPollici + ", Stato=" + (stato?"accesso":"spento")
+				+ ", Volume=" + volume + ", Modalità Hotel=" + (modalitàHotel?"attiva":"non attiva") + ", Canale corrente=" + canaleCorrente
 				+ "]";
 	}
 

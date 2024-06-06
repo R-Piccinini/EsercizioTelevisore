@@ -12,7 +12,7 @@ public class Main {
 		String scelta;
 		Televisore t1 = null;
 		do {
-			System.out.println("\n\n");
+			System.out.println("\n");
 			System.out.println("(1-Crea televisore),(2-Accendi),(3-Spegni),(4-Aumenta Volume),(5-Diminuisci Volume),"
 					+ "(6-Cambia Canale),(7-Mostra Canale),(8-Visualizza Elenco Canali),(9-Esci)");
 			System.out.println();
